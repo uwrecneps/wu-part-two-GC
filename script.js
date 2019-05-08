@@ -10,7 +10,7 @@ if (eventType=='casual') // casual event
     {
         result = 'Since it is ' + tempFahr + ' and you are going to a ' + eventType + ' event, you should wear something comfy and a coat';
     } 
-    else if (54 < tempFahr < 70) // temp between 54 and 70
+    else if (54 <= tempFahr <= 70) // temp between 53 and 71
     {
         result = 'Since it is ' + tempFahr + ' and you are going to a ' + eventType + ' event, you should wear something comfy and a jacket';
     }
@@ -28,7 +28,7 @@ else if (eventType=='semi-formal') // semi-formal event
         result = 'Since it is ' + tempFahr + ' and you are going to a ' + eventType + ' event, you should wear a polo and a coat';
     }
 
-    if (54 < tempFahr < 70) // temp between 54 and 70
+    if (54 <= tempFahr <= 70) // temp between 53 and 71
     {
         result = 'Since it is ' + tempFahr + ' and you are going to a ' + eventType + ' event, you should wear a polo and a jacket';
     }
@@ -46,7 +46,7 @@ else if (eventType=='formal') // formal event
         result = 'Since it is ' + tempFahr + ' and you are going to a ' + eventType + ' event, you should wear a suit and a coat';
     }
 
-    if (54 < tempFahr < 70) // temp between 54 and 70
+    if (54 <= tempFahr <= 70) // temp between 53 and 71
     {
         result = 'Since it is ' + tempFahr + ' and you are going to a ' + eventType + ' event, you should wear a suit and a jacket';
     }
